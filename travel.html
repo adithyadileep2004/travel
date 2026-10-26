@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel voyage</title>
+    <link rel="stylesheet" href="designtrvl.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="top-bar">
+    <div class="container d-flex justify-content-between">
+        <div>
+            <a href="#">Agent Login</a>
+            <a href="#">Customer Login</a>
+            <a href="#">Register</a>
+        </div>
+        <span>Call Us Now: 815-123-4567</span>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            V<span>O</span>YAGE
+        </a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#destinations">DESTINATIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#holidays">HOLIDAYS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">REVIEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-content text-center text-white">
+
+        <h1>TO TRAVEL IS TO LIVE</h1>
+
+        <p>
+            You Don't Need Magic to Disappear.
+            All you need is a destination.
+        </p>
+
+        <a href="#destinations" class="btn btn-teal">
+            SHOW ON THE MAP
+        </a>
+
+        <a href="#holidays" class="btn btn-outline-light ms-2">
+            MORE INFO
+        </a>
+
+    </div>
+</section>
+<section class="search-section">
+    <div class="container">
+        <form class="row align-items-center g-3"
+              id="holidaySearch">
+            <div class="col-lg-2">
+                <h6 class="text-white mb-0">
+                    FIND YOUR<br>
+                    <strong>HOLIDAYS</strong>
+                </h6>
+            </div>
+            <div class="col-lg-4">
+                <label for="destination" class="text-white">
+                    Where
+                </label>
+                <input type="text"
+                       id="destination"
+                       class="form-control"
+                       placeholder="Enter destination"
+                       required>
+            </div>
+            <div class="col-lg-4">
+                <label for="travelDate" class="text-white">
+                    When
+                </label>
+                <input type="date"
+                       id="travelDate"
+                       class="form-control"
+                       required>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn btn-teal w-100" type="submit">
+                    Search
+                </button>
+            </div>
+        </form>
+        <p id="searchMessage" class="text-white mt-3 mb-0"
+           role="status"></p>
+    </div>
+</section>
+<section class="offers-section py-5" id="destinations">
+    <div class="container-fluid">
+        <div class="section-heading text-center mb-4">
+            <h5>SPECIAL OFFERS</h5>
+            <p>Best travel packages for people who love to explore!</p>
+        </div>
+        <div class="row g-3">
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077"
+                         alt="Beautiful island destination">
+                    <div class="destination-info">
+                        <h6>Seychelles</h6>
+                        <small>New Destination</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+                         alt="Italian coastal village">
+                    <div class="destination-info">
+                        <h6>Italy</h6>
+                        <small>Explore Europe</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8"
+                         alt="Tropical island">
+                    <div class="destination-info">
+                        <h6>Hong Kong & Macau</h6>
+                        <small>Popular Packages</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+                         alt="Eiffel Tower in Paris">
+                    <div class="destination-info">
+                        <h6>Paris</h6>
+                        <small>Romantic Getaway</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856"
+                    alt="New York City, USA">
+                    <div class="destination-info">
+                        <h6>USA</h6>
+                        <small>Explore America</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+                         alt="Dubai skyline">
+                    <div class="destination-info">
+                        <h6>Dubai</h6>
+                        <small>City Holidays</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="holiday-types" id="holidays">
+    <div class="container text-center">
+        <h5>HOLIDAYS TYPE</h5>
+        <p class="subtitle">Get inspired for your next adventure</p>
+        <div class="row justify-content-center g-4 mt-4">
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">🚢</div>
+                <p>Cruise</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">🏙️</div>
+                <p>City Breaks</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">💚</div>
+                <p>Honeymoon</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">🧭</div>
+                <p>Adventure</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">🌴</div>
+                <p>Safari</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="holiday-icon">🏖️</div>
+                <p>Beach</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews-section py-5" id="reviews">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h5>HAPPY CLIENTS</h5>
+            <p class="text-muted small">
+                What our customers say about our services!
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="review-card">
+                    <p>"An amazing travel experience. Everything
+                       was planned perfectly!"</p>
+                    <h6>Rahul M.</h6>
+                    <small>Kerala, India</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card">
+                    <p>"Beautiful destinations and excellent
+                       customer service throughout our trip."</p>
+                    <h6>Anjali S.</h6>
+                    <small>Kochi, India</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="review-card">
+                    <p>"The holiday package made planning our
+                       vacation simple and enjoyable."</p>
+                    <h6>Arun K.</h6>
+                    <small>India</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="site-footer" id="contact">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-6 col-lg-3">
+                <h5>Newsletter</h5>
+                <p>Subscribe for travel updates and special offers.</p>
+                <form id="newsletterForm">
+                    <div class="input-group">
+                        <input type="email"
+                               id="newsletterEmail"
+                               class="form-control"
+                               placeholder="Your email"
+                               aria-label="Your email address"
+                               required>
+                        <button class="btn btn-teal" type="submit">
+                            Go
+                        </button>
+                    </div>
+                </form>
+                <small id="newsletterMessage"
+                       role="status"></small>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>Latest News</h5>
+                <p>Discover amazing destinations.</p>
+                <p>Explore our seasonal holiday packages.</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>Tags</h5>
+                <div class="footer-tags">
+                    <span>Adventure</span>
+                    <span>Customer Login</span>
+                    <span>Holidays</span>
+                    <span>Travel</span>
+                    <span>Beach</span>
+                    <span>City Breaks</span>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h5>Address</h5>
+                <p>
+                    Voyage Travel Agency<br>
+                    Kochi, Kerala, India<br>
+                    Email: hello@example.com
+                </p>
+                <p>Facebook · Instagram · YouTube</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom text-center">
+        <p class="mb-0">
+            Home · Destinations · Holidays · Contact
+        </p>
+        <small>© 2026 Voyage. All rights reserved.</small>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

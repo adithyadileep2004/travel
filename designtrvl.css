@@ -1,0 +1,268 @@
+
+:root {
+    --navy: #2c3e50;
+    --teal: #24c6ad;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.top-bar {
+    background: var(--navy);
+    color: white;
+    padding: 9px 0;
+    font-size: 11px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: var(--teal);
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--teal);
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 430px;
+    background:
+        linear-gradient(rgba(23, 43, 57, 0.65),
+                        rgba(23, 43, 57, 0.65)),
+        url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.btn-teal {
+    background: var(--teal);
+    color: white;
+    border: 1px solid var(--teal);
+    border-radius: 2px;
+    padding: 12px 18px;
+}
+
+.btn-teal:hover {
+    color: white;
+    background-color: #1ca991;
+    color: white;
+}
+
+.section-heading h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-heading p {
+    font-size: 12px;
+    color: #777;
+}
+
+.destination-card {
+    background: white;
+    border: 1px solid #eee;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.destination-info {
+    padding: 12px;
+}
+
+.destination-info h6 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.destination-info small {
+    color: #777;
+    font-size: 10px;
+}
+
+.section-heading h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-heading p {
+    font-size: 12px;
+    color: #777;
+}
+
+.destination-card {
+    background: white;
+    border: 1px solid #eee;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.destination-info {
+    padding: 12px;
+}
+
+.destination-info h6 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.destination-info small {
+    color: #777;
+    font-size: 10px;
+}
+
+.holiday-types {
+    background:
+        linear-gradient(rgba(35, 54, 72, 0.88),
+                        rgba(35, 54, 72, 0.88)),
+        url("https://images.unsplash.com/photo-1514282401047-d79a71a590e8")
+        center/cover no-repeat;
+    color: white;
+    padding: 65px 0;
+}
+
+.holiday-types h5 {
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #ddd;
+    font-size: 12px;
+}
+
+.holiday-icon {
+    width: 90px;
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 12px;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.holiday-icon:hover {
+    border-color: var(--teal);
+    background: var(--teal);
+    transform: scale(1.05);
+}
+
+.holiday-types p {
+    font-size: 13px;
+}
+
+.review-card {
+    padding: 22px;
+    border: 1px solid #eee;
+    border-top: 3px solid var(--teal);
+    height: 100%;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.review-card p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.review-card h6 {
+    margin-bottom: 3px;
+    color: var(--teal);
+}
+
+.review-card small {
+    color: #999;
+}
+
+.site-footer {
+    background: var(--navy);
+    color: #d6dfe5;
+    font-size: 12px;
+}
+
+.site-footer h5 {
+    color: var(--teal);
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.site-footer p {
+    line-height: 1.8;
+}
+
+.footer-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.footer-tags span {
+    border: 1px solid #7b8995;
+    padding: 5px 8px;
+}
+
+.footer-bottom {
+    background: #253647;
+    padding: 22px 10px;
+    line-height: 2;
+}
